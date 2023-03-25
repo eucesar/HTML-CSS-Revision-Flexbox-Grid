@@ -9,7 +9,7 @@
 ## Download
 
 ```sh
-https://github.com/eucesar/HTML-CSS-Revision-Flexbox-Grid-Img.git
+https://github.com/eucesar/HTML-CSS-Revision-Flexbox-Grid.git
 ```
 
 ## Cesar
