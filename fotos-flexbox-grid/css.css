@@ -1,0 +1,113 @@
+/*container - coontainer com table para imagem - display: tabble*/
+.main {
+    display: table;
+    margin: 0 0 0 10em;
+}
+
+.img-main{
+    /*config da imagem aa direita*/
+    display: table-cell;
+    float: left;
+
+    width: 38%;
+    padding: 20px;
+}
+
+.titulo-main{
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--fundo);
+    margin-top: 80px;
+}
+
+.paragrafo-main{
+    overflow-wrap: break-word;
+    padding: 20px 20px 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: justify;
+}
+
+button{
+    width: 10em;
+    margin: 20px 0 0 0;
+    background-color: var(--fundo);
+    border-radius: 10px;
+    padding: 10px;
+    border: solid;
+    color: var(--cor-de-fundo);
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/*container de 3 itens - define so o 1° e o resto obdece até o final e eeu definir outro*/
+/*
+.tres-itens{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-rodape{
+    margin: 30px 30px 30px 30px;
+    padding: 50px;
+    border: dotted;
+    border-color: var(--fundo);
+    text-align: center;
+
+    height: 100%;
+    width: 100%;
+}
+*/
+
+/*display:gird*/
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
+}
+
+.container {
+    height: 100vh;
+    /*tanto faz a posição da imagem - direita ou esquerda - separar a imagem e o texto por divs juntas - img dentro da section*/
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /*gap*/
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+/*descrição - p e h - dentro de uma conatiner para separar melhor no grid*/
+.container__descricao {
+    padding: 2em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-de-fundo);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+/*
+    |\__/,|   (`\
+  _.|o o  |_   ) )
+-(((---(((-------- 𝒞𝑒𝓈𝒶𝓇 ℐ𝑔𝓁𝑒𝓈𝒾𝒶𝓈  */
+
+/**/
